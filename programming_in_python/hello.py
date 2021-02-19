@@ -13,3 +13,9 @@ print(kitkat + oreos * 2)
 print(cheetos * 4)
 print(pringles + oreos + twix)
 print(pringles * 3 + oreos * 2)
+
+# 함수
+def hello():
+    print("hello")
+    print("welcome to codeit")
+hello();
