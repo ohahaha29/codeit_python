@@ -19,3 +19,17 @@ def hello():
     print("hello")
     print("welcome to codeit")
 hello();
+
+# 파라미터
+def hello(name):
+    print("hello")
+    print(name)
+    print("welcome to codeit")
+hello("chris");
+
+# 여러 개의 파라미터
+def print_sum(a, b, c):
+    print(a + b)
+    print(a + b + c)
+    print(a * b * c)
+print_sum(10, 7, 9)
