@@ -33,3 +33,17 @@ def print_sum(a, b, c):
     print(a + b + c)
     print(a * b * c)
 print_sum(10, 7, 9)
+
+# return
+def get_square1(x):
+    return x * x
+print(get_square1(3))
+
+def get_square2(x):
+    return x * x
+y=get_square2(3)
+print(y)
+
+def get_square3(x):
+    return x * x
+print(get_square3(3) + get_square3(4))
